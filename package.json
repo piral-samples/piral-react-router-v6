@@ -1,0 +1,43 @@
+{
+  "name": "piral-react-router-v6",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "piral-core": "0.14.24",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-router": "^6",
+    "react-router-dom": "^6"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [
+      "!path-to-regexp"
+    ],
+    "scripts": {},
+    "template": "default",
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": "",
+    "packageOverrides": {}
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "piral-cli": "0.14.24",
+    "piral-cli-webpack5": "0.14.24"
+  }
+}
